@@ -1,0 +1,45 @@
+.main {
+  margin-bottom: 50px;
+}
+
+.mainContainer {
+  padding: 40px;
+  border-end-start-radius: 20px;
+  border-end-end-radius: 20px;
+
+  .contentTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    .searchBlock {
+      display: flex;
+      align-items: center;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      padding: 0 0 0 15px;
+
+      .searchIcon {
+        width: 16px;
+        height: 16px;
+      }
+
+      input {
+        width: 240px;
+        border: none;
+        padding: 13px;
+        font-size: 15px;
+        outline: none;
+      }
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    
+  }
+}
