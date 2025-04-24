@@ -1,5 +1,5 @@
 .card {
-  border: 1px solid #eee;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 20px;
   width: 210px;
@@ -7,7 +7,7 @@
 
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
   
   .favorite {
@@ -21,8 +21,9 @@
   }
 
   .cardName {
+    flex: 1;
     margin: 14px 0;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
   }
 
@@ -45,7 +46,7 @@
       }
     }
 
-    img {
+    svg {
       cursor: pointer;
     }
   }

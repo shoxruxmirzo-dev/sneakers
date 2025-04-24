@@ -16,14 +16,9 @@
     .searchBlock {
       display: flex;
       align-items: center;
-      border: 1px solid #eee;
+      border: 1px solid rgba(0, 0, 0, 0.1);
       border-radius: 5px;
       padding: 0 0 0 15px;
-
-      .searchIcon {
-        width: 16px;
-        height: 16px;
-      }
 
       input {
         width: 240px;
@@ -39,7 +34,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-
-    
+  
   }
 }
